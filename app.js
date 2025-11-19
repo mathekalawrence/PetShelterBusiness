@@ -3,7 +3,7 @@ import cors from 'cors'
 
 import petRoutes from './pets/routes/pets.routes.js'
 
-const app=express();
+const app=express(); 
 const port=3000;
 
 //Global Middlwares
