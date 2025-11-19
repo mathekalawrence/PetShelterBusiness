@@ -8,7 +8,7 @@ const port=3000;
 
 //Global Middlwares
 app.use(cors());
-app.use(express.json())
+app.use(express.json())   
 
 //Routes
 app.use('/pets', petRoutes);
